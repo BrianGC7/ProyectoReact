@@ -1,0 +1,31 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+main header{
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4%;
+}
+header a{
+  list-style: none;
+  text-decoration: none;
+  color: #1f022c;
+}
+.description{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20%;
+  font-weight: bold;
+  font-size: 20px;
+}
+footer{
+  text-align: center;
+  background-color: #02182c;
+  color: #ffffff;
+  margin-top: 100%;
+}
